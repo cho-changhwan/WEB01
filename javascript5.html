@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <script type="text/javascript">
+
+var example = new Array("a","b","c");
+example.push("d");
+console.log(example);
+
+var example = new Array("a","b","c");
+var x = example.pop();
+
+console.log(example);
+console.log(x);
+
+var example = new Array("a","b","c");
+var x = example.shift();
+
+console.log(example);
+console.log(x);
+
+var example = new Array("a","b","c");
+var example2 = new Array("d","e","f");
+
+example = example.concat(example2);
+console.log(example);
+
+var example = new Array("a","b","c");
+example = example.join("/");
+
+console.log(example);
+
+var example = new Array("a","b","c");
+example.reverse();
+
+console.log(example);
+
+var example = new Array(5,7,9,1);
+example.sort();
+
+console.log(example);
+
+var example = new Array(2,4,6,7);
+var example2 = example.slice(0,-1);
+console.log(example);
+console.log(example2);
+
+example2 = example.slice(-2);
+console.log(example);
+console.log(example2);
+
+var example = new Array("a","b","c","d");
+var example2 = example.splice(1,2);
+
+console.log(example);
+console.log(example2);
+
+  </script>
+
+</body>
+</html>
